@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bulb{
+    width: 200px;
+    margin: 5rem;
+
+}
+.img{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#btn1{
+
+    background-color: red;
+    padding: 1rem;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    border-radius: 5px;
+    margin: 2rem;
+    cursor: pointer;
+}
+#btn1:hover{
+    background-color: rgb(86, 26, 26);
+    transition: all 0.5s ease;
+}
+#btn2{
+
+    background-color: rgb(0, 255, 47);
+    padding: 1rem;
+    border: none;
+    font-size: 2rem;
+    color: rgb(20, 6, 6);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn2:hover{
+    background-color: rgb(36, 83, 14);
+    transition: all 0.5s ease;
+    color: aliceblue;
+}
